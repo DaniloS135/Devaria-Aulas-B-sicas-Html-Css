@@ -3,35 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/Css/devaria.css">
+    <link rel="stylesheet" href="../public/Css/header.css">
+    <link rel="stylesheet" href="../public/Css/index.css">
     <title>Olá Mundo</title>
-
-    <style>
-
-    .color-red{
-            color: red;
-    }
-
-    #Link-home{
-            color: purple;
-    }
-
-    h1{
-        color: green;
-    }
-
-    .color-red ul li a {
-        color: brown;
-    }
-
-    </style>
 </head>
 <body>
     <header>
-        <h1>Olá Mundo! Essa é a minha primeira página da Web.</h1>
+        <a href="Projeto.html" class="link-logo">
+            <img src="../public/Fotos/logo-devaria.svg" alt="Logo devaria"/>
+        </a>    
 
-        <nav class="color-red">
+        <nav class="menu">
             <ul>
-                <li><a href="Home.html" id="Link-home">Home</a></li>
                 <li><a href="Professores.html">Professores</a></li>
                 <li><a href="FaleConosco.html">Fale Conosco</a></li>
                 <li><a href="DevStars.html">DevStars</a></li>
@@ -40,8 +24,13 @@
     </header>
 
     <main>
-        <section>
-            <img src="./Fotos/fotohome.png" width="500" alt="Devaria - Olá Mundo"/>
+        <h1 class="title">Olá Mundo! Essa é a minha primeira página da Web.</h1>
+
+        <section class="cover-container">
+            <figure>
+            <img src="../public/Fotos/fotohome.png" alt="Devaria - Olá Mundo"/>
+            <figcaption>Foto de capa Devaria!</figcaption>
+            </figure>
         </section>
 
         <section>
@@ -57,5 +46,3 @@
     </footer>
 </body>
 </html>
-
-teste de nome

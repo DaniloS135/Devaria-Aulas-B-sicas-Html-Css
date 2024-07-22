@@ -25,6 +25,61 @@ main .contact-form select{
 
 main .contact-form textarea{
     resize: none;
+    padding-top: 15px;
+}
+
+main .contact-form > div input[type="radio"], main .contact-form > div input[type="checkbox"] {
+    width: 25px;
+}
+
+main .contact-form > div input[type="submit"], main .contact-form > div input[type="reset"] {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    text-transform: uppercase;
+}
+
+main .contact-form > div input[type="submit"] {
+    background-color: #3bcd2d;
+    padding: 10px;
+    font-weight: bold;
+}
+
+main .contact-form > div input[type="reset"] {
+    background-color: #5e49ff;
+}
+
+main .contact-form > div:nth-child(4) span {
+    color: #25cbd3;
+
 }
 
 
+
+@media screen and (min-width: 992px) {
+    main .contact-form{
+        width: 60%;
+        border: 1px solid #25cbd3;
+        padding: 25px;
+        border-radius: 20px;
+        margin: 25px auto;
+    }
+
+    main .contact-form input, main .contact-form textarea {
+        width: 95%;
+    }
+
+    main .contact-form select{
+        width: 40%;
+    }
+
+    main .contact-form > div input [type="submit"], main .contact-form > div input [type="reset"]{
+        width: auto;
+        padding: 10px;
+        outline: none;   
+    }
+}
+
+main .contact-form > div input [type="submit"]{
+    margin-right: 20px;
+}
